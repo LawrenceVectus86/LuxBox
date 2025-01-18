@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { motion } from 'framer-motion';
 import { Package, Mail, Phone, MapPin, Facebook, Twitter, Instagram } from 'lucide-react';
 import { FooterLink } from './FooterLink';

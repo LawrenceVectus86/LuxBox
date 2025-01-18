@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { useState, useEffect } from 'react';
+import { useScroll, useTransform } from 'framer-motion';
 import { designSteps } from './data';
 import { ProgressIndicator } from './ProgressIndicator';
 import { StepContent } from './StepContent';

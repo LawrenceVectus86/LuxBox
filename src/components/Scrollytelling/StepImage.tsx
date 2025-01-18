@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { motion, useTransform } from 'framer-motion';
 import { ScrollStep } from './types';
 

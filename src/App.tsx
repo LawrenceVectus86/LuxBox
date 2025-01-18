@@ -1,10 +1,10 @@
-import React from 'react';
+// import React from 'react';
 import { Navbar } from './components/Navbar/Navbar';
 import { Hero } from './components/Hero';
 import { AboutSection } from './components/AboutSection';
 import { BoxCreator } from './components/BoxCreator/BoxCreator';
 import { ProfileSection } from './components/ProfileSection';
-import { ScrollytellingSection } from './components/ScrollytellingSection';
+// import { ScrollytellingSection } from './components/ScrollytellingSection';
 import { PricingSection } from './components/PricingSection';
 import { Footer } from './components/Footer/Footer';
 
