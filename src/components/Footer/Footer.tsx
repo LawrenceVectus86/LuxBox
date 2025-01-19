@@ -22,7 +22,7 @@ export const Footer = () => {
               whileHover={{ scale: 1.05 }}
             >
               <Package className="w-6 h-6" />
-              <span className="font-bold text-xl">LUXBOX</span>
+              <span className="font-bold text-xl">LUXBOX (Kelompok 2)</span>
             </motion.div>
             <p className="text-gray-400 mb-6">
               Crafting premium packaging solutions for brands that demand excellence.

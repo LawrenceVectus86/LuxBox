@@ -39,8 +39,8 @@ export const AboutSection = () => {
         >
           <h2 className="text-4xl font-bold mb-6">About LUXBOX</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We believe in creating more than just boxes. Each LUXBOX is a canvas for your brand's story,
-            crafted with precision and care to deliver an unforgettable unboxing experience.
+          Kami percaya bahwa kami menciptakan lebih dari sekadar kotak. Setiap LUXBOX adalah kanvas untuk cerita merek Anda, dibuat dengan presisi dan ketelitian untuk memberikan pengalaman membuka kotak yang tak terlupakan.
+
           </p>
           <div className="aspect-video rounded-xl overflow-hidden shadow-2xl">
             <img

@@ -61,7 +61,7 @@ export const ProfileSection = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Profil LUXBOX</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Sejak 2008, LUXBOX telah menjadi pionir dalam industri kemasan premium, 
+            Sejak 2024, LUXBOX telah menjadi pionir dalam industri kemasan premium, 
             menghadirkan solusi kemasan inovatif yang menggabungkan keindahan, 
             fungsionalitas, dan keberlanjutan.
           </p>

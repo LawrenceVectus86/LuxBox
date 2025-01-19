@@ -10,7 +10,7 @@ export const Logo = () => {
       whileTap={{ scale: 0.95 }}
     >
       <Package className="w-6 h-6 text-white" />
-      <span className="text-white font-bold text-xl">LUXBOX</span>
+      <span className="text-white font-bold text-xl">LUXBOX (Kelompok 2)</span>
     </motion.div>
   );
 };

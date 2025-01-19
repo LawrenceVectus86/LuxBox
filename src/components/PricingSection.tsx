@@ -12,38 +12,38 @@ export const PricingSection = () => {
   const plans = [
     {
       name: "Starter",
-      price: "299",
+      price: "100.000",
       features: [
         "Basic customization options",
-        "3 size variations",
-        "Standard materials",
-        "Basic foil colors",
-        "10 boxes minimum"
+        "3 Ukuran Bervariasi",
+        "Material Standar",
+        "Warna Standar",
+        "Pembelian Minimal 10 Box"
       ]
     },
     {
       name: "Professional",
-      price: "599",
+      price: "350.000",
       popular: true,
       features: [
-        "Advanced customization",
-        "All size options",
+        "Kustomisasi Tingkat",
+        "Semua Pilihan Ukuran",
         "Premium materials",
-        "Extended foil colors",
-        "Custom inserts",
-        "5 boxes minimum"
+        "Berbagai Macam Warna",
+        "Kustom Isi",
+        "Pembelian Minimal 5 Box"
       ]
     },
     {
       name: "Enterprise",
-      price: "999",
+      price: "499.000",
       features: [
-        "Full customization suite",
-        "Custom dimensions",
-        "Luxury materials",
-        "Unlimited foil options",
-        "Custom accessories",
-        "No minimum order"
+        "Full Kustomisasi Bahan",
+        "Kustom Ukuran",
+        "Material Premium",
+        "Tidak ada Batasan Cetak",
+        "Kustom Aksesoris",
+        "Tanpa Minimum Order"
       ]
     }
   ];
@@ -58,8 +58,8 @@ export const PricingSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">Pricing Plans</h2>
-          <p className="text-xl text-gray-600">Choose the perfect package for your brand</p>
+          <h2 className="text-4xl font-bold mb-4">Harga Mulai Dari</h2>
+          <p className="text-xl text-gray-600">Pilih Premium Box untuk Brand Anda dan Sebagai Hadiah</p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -82,7 +82,7 @@ export const PricingSection = () => {
               )}
               <h3 className="text-2xl font-bold mb-4">{plan.name}</h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold">${plan.price}</span>
+                <span className="text-4xl font-bold">Rp.{plan.price}</span>
                 <span className="text-gray-600">/project</span>
               </div>
               <ul className="space-y-4 mb-8">
